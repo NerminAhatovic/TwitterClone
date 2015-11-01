@@ -1,4 +1,6 @@
-PROJECT INSTALLATION
+# Twitter Clone
+
+## PROJECT INSTALLATION
 
 1. Clone project from github repository
 2. Run command prompt and navigate to project directory
@@ -7,7 +9,7 @@ PROJECT INSTALLATION
 NOTE: If there is trouble installing any gulp package try with --no-bin-links:
 'npm install gulp --save-dev --no-bin-links'
 
-DB CONFIGURATION
+## DB CONFIGURATION
 
 1. Create twitterclonedb database in postgreSQL
 2. Enter correct postgreSQL username and password in /src/models/models.js
@@ -16,13 +18,13 @@ DB CONFIGURATION
 
 NOTE: You must have PostgreSQL installed on your machine.
 
-RUN WITH GULP
+## RUN WITH GULP
 
 1. Run command prompt and navigate to project directory
 2. Run 'gulp' to build project and start node.js server
 3. Type localhost:3000 in your browser
 
-BUILD FOR DEPLOYMENT
+## BUILD FOR PRODUCTION
 
 1. Run command prompt and navigate to project directory
 2. Run 'gulp build' to build project into dist folder
